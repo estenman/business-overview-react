@@ -12,3 +12,15 @@
 .clearfix::before, .clearfix::after {
   clear: both;
 }
+
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.program-wrapper {
+	padding-top: 55px;
+	background: linear-gradient(174deg, rgb(215, 214, 202) 0%, rgb(232, 232, 223) 100%);
+	flex: 1 0 auto;
+}
