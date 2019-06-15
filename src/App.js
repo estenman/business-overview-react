@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import './Normalize.css'
+import Header from './components/Header.js';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+    	<Header />
     </div>
   );
 }
