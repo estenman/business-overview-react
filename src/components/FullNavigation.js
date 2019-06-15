@@ -5,10 +5,10 @@ class FullNavigation extends Component {
 		return (
 			<nav role="navigation" className="header-nav">
 				<ul>
-					<li>Dashboard
+					<li className="selected-tab">Dashboard
 						<ul className="sub-nav-content">
 							<li>Dashboard</li>
-							<li>Business Overview</li>
+							<li className="selected-tab-item">Business Overview</li>
 							<li>Schedule</li>
 							<li>Reports</li>
 						</ul>
