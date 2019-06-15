@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import './Normalize.css'
-import Header from './components/Header.js';
+import './components/header/Header-FullNavigation.css';
+import Header from './components/header/Header.js';
 
 function App() {
   return (
