@@ -1,0 +1,36 @@
+/*Container*/
+.program-container {
+	width: 245px;
+	min-height: 245px;
+	background-color: white;
+}
+
+/*Header*/
+.program-header-container{
+	display: flex;
+	padding: 1.25em 1.25em 0;
+}
+
+.header-prog-name {
+	margin: 0px;
+}
+.pencil-image-container {
+	background-color: #fcfcfa;
+	background-image: url(/assets/pencil_icon-dark.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid #f4f4f2;
+	margin-left: auto;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.pencil-image-container:hover {
+	background-image: url(/assets/pencil_icon-light.png);
+}
+/*
+.pencil-image {
+	width: 18px;
+	height: 18px;
+}*/
