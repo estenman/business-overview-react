@@ -86,3 +86,12 @@
 	font-weight: 600;
 	margin-right: 5px;
 }
+
+/*Pricing detail section*/
+
+/*Toggle*/
+.toggle-copy {
+	padding: 0.5em 1.25em;
+	color: #bebeb5;
+	border: none;
+}

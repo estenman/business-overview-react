@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ProgramDetailHeader from './ProgramDetailHeader.js';
 import ProgramDetailChart from './ProgramDetailChart.js';
 import ProgramDetailSales from './ProgramDetailSales.js';
+import ProgramDetailPricing from './ProgramDetailPricing.js';
+import ProgramDetailToggle from './ProgramDetailToggle.js';
 
 class ProgramDetailContainer extends Component {
 
@@ -11,6 +13,7 @@ class ProgramDetailContainer extends Component {
 				<ProgramDetailHeader />
 				<ProgramDetailChart />
 				<ProgramDetailSales />
+				<ProgramDetailToggle />
 			</section>
 		);
 	}
