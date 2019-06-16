@@ -4,7 +4,7 @@ class ProgramDetailChart extends Component {
 	render(){
 		return(
 			<div className="chart-container">
-				<p className="chart-header">Sales by month</p>
+				<h3 className="chart-header">Sales by month</h3>
 				<img className="chart-image" src="./assets/graph.png" />
 			</div>
 		);

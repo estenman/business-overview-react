@@ -13,6 +13,9 @@
   clear: both;
 }
 
+h1, h2, h3, h4, h5, p {
+	margin: 0px;
+}
 .page-wrapper {
 	display: flex;
 	flex-direction: column;
