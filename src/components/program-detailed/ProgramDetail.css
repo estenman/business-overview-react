@@ -29,8 +29,14 @@
 .pencil-image-container:hover {
 	background-image: url(/assets/pencil_icon-light.png);
 }
-/*
-.pencil-image {
-	width: 18px;
-	height: 18px;
-}*/
+
+/*Sales Chart*/
+.chart-container {
+	text-align: center;
+	padding: 0 1.25em;
+}
+
+.chart-header {
+	text-align: left;
+	color: #bebeb5;
+}
