@@ -27,3 +27,16 @@ h1, h2, h3, h4, h5, p {
 	background: linear-gradient(174deg, rgb(215, 214, 202) 0%, rgb(232, 232, 223) 100%);
 	flex: 1 0 auto;
 }
+
+
+th:nth-child(2), th:nth-child(3) {
+	font-size: 0.85em;
+}
+
+th {
+	vertical-align: sub;
+}
+
+table{
+	border-collapse: collapse;
+}

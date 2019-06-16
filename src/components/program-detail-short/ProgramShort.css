@@ -1,0 +1,22 @@
+.program-table-header th {
+	color: #737373;
+	padding-right: 10px;
+}
+
+tr.program-table-header:last-child {
+	border-bottom: 2px solid #c7c7b6;
+}
+
+.program-short-item{
+	font-weight: 600;
+	width: 192px;
+}
+
+.program-short-expand {
+	color: #737373;
+}
+
+.program-short-item td {
+	vertical-align: top;
+	padding: 10px 10px 10px 0px;
+}
