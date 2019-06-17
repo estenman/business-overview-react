@@ -5,7 +5,7 @@ class ProgramDetailChart extends Component {
 		return(
 			<div className="chart-container">
 				<h3 className="chart-header">Sales by month</h3>
-				<img className="chart-image" src="./assets/graph.png" />
+				<img className="chart-image" src="./assets/graph.png" alt="line graph" />
 			</div>
 		);
 	}

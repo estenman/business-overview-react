@@ -12,6 +12,7 @@ class ProgramShortContainer extends Component {
 							<th>All Programs</th>
 							<th>Monthly Sales</th>
 							<th>Monthly Attendence</th>
+							<th aria-hidden="true" className="hide-header-mobile table-spacer"><span className="hide-header">holder</span></th>
 						</tr>
 					</thead>
 					<tbody>

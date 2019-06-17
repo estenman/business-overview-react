@@ -1,3 +1,8 @@
+.new-program-wrapper {
+	min-width: 225px;
+	text-align: center;
+}
+
 .program-button {
 	width: 75px;
 	height: 75px;
@@ -7,6 +12,7 @@
 	box-shadow: inset 0px 2px 0px 0px rgba(223,255,194,1);
 	position: relative;
 	z-index: 1;
+	margin-bottom: 5px;
 	}
 
 .program-button::before {
@@ -39,4 +45,10 @@
 	height: 0px;
 	width: 0px;
 	overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px){
+	.new-program-wrapper {
+		margin-top: 20px;
+	}
 }

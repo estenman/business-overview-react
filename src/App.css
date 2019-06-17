@@ -22,12 +22,20 @@ h1, h2, h3, h4, h5, p {
 	height: 100%;
 }
 
-.program-wrapper {
-	padding-top: 55px;
-	background: linear-gradient(174deg, rgb(215, 214, 202) 0%, rgb(232, 232, 223) 100%);
+.tan-wrapper {
+	padding: 22px 0px 55px;
+	background: radial-gradient(#f4f4ee, #d8d7cb 90%);
 	flex: 1 0 auto;
+	display: flex;
+
 }
 
+
+.three-part-program {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 35px;
+}
 
 th:nth-child(2), th:nth-child(3) {
 	font-size: 0.85em;
@@ -39,4 +47,19 @@ th {
 
 table{
 	border-collapse: collapse;
+}
+
+@media only screen and (max-width:1024px) {
+	.tan-wrapper, .three-part-program {
+		flex-direction: column-reverse;
+	}
+
+	.three-part-program {
+		margin-top: 20px;
+		align-items: center;
+	}
+
+	.tan-wrapper {
+		padding-bottom: 
+	}
 }

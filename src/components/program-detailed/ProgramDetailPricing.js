@@ -16,7 +16,7 @@ class ProgramDetailPricing extends Component {
 						<tr>
 							<td className="price-name-item">Monthly Unlimited</td>
 							<td className="price-current-item">$4,260</td>
-							<td className="price-graph-item" rowspan="7">
+							<td className="price-graph-item" rowSpan="7">
 								<img className="price-graph-image" src="./assets/spark_lines.png" alt="Line graphs of sales" />
 							</td>
 						</tr>

@@ -14,11 +14,18 @@ function App() {
   return (
     <div className="page-wrapper">
     	<Header />
-    	<div className="program-wrapper">
-    		 <ProgramButton />
-    		 <ProgramDetailContainer />
-    		 <ProgramShortContainer />
-    	</div>
+    	<div className="tan-wrapper">
+    		<ProgramButton />
+            <div>
+                <div className="three-part-program">
+                    <ProgramDetailContainer />
+                    <ProgramDetailContainer />
+                    <ProgramDetailContainer />
+                </div>
+                <ProgramShortContainer /> 
+            </div>   
+ 
+    	</div>       
     </div>
   );
 }

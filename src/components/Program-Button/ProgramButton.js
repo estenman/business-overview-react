@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ProgramButton extends Component {
 	render() {
 		return(
-			<aside>
+			<aside className="new-program-wrapper">
 				<button aria-label="New Program" aria-describedby="descriptionNewProgram" className="program-button">
 					<img src="/assets/plus_icon.png" alt="plus sign" />
 				</button>
