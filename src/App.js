@@ -18,9 +18,9 @@ function App() {
     		<ProgramButton />
             <div>
                 <div className="three-part-program">
-                    <ProgramDetailContainer />
-                    <ProgramDetailContainer />
-                    <ProgramDetailContainer />
+                    <ProgramDetailContainer prgid={100}/>
+                    <ProgramDetailContainer prgid={101}/>
+                    <ProgramDetailContainer prgid={102}/>
                 </div>
                 <ProgramShortContainer /> 
             </div>   

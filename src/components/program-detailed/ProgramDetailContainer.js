@@ -9,12 +9,13 @@ class ProgramDetailContainer extends Component {
 	render(){
 		return(
 			<section className="program-container">
-				<ProgramDetailHeader />
+				<ProgramDetailHeader prgid={this.props.prgid}/>
 				<ProgramDetailChart />
-				<ProgramDetailSales />
-				<ProgramDetailToggle />
+				<ProgramDetailSales prgid={this.props.prgid}/>
+				<ProgramDetailToggle prgid={this.props.prgid}/>
 			</section>
 		);
+
 	}
 }
 

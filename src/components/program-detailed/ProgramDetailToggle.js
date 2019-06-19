@@ -18,7 +18,7 @@ class ProgramDetailToggle extends Component {
 	render() {
 		return(
 			<div>
-				{!this.state.isToggleOn && <ProgramDetailPricing />}
+				{!this.state.isToggleOn && <ProgramDetailPricing prgid={this.props.prgid}/>}
 				<button onClick={this.handleClick} className="toggle-copy">
 					{this.state.isToggleOn ? 'more' : 'less'}
 				</button>

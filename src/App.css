@@ -55,6 +55,10 @@ table{
 	}
 
 	.three-part-program {
+		flex-direction: column;
+	}
+
+	.three-part-program {
 		margin-top: 20px;
 		align-items: center;
 	}
