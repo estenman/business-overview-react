@@ -6,20 +6,20 @@ class FullNavigation extends Component {
 			<React.Fragment>
 				<nav role="navigation" className="header-nav">
 					<ul>
-						<li className="selected-tab">Dashboard
+						<li className="selected-tab"><a href="#">Dashboard</a>
 							<ul className="sub-nav-content">
-								<li>Dashboard</li>
-								<li className="selected-tab-item">Business Overview</li>
-								<li>Schedule</li>
-								<li>Reports</li>
+								<li><a href="#">Dashboard</a></li>
+								<li className="selected-tab-item"><a href="#">Business Overview</a></li>
+								<li><a href="#">Schedule</a></li>
+								<li><a href="#">Reports</a></li>
 							</ul>
 						</li>
-						<li>Sign In</li>
-						<li>Classes</li>
-						<li>Workshops</li>
-						<li>Appointments</li>
-						<li>Client Home</li>
-						<li>Retail</li>
+						<li><a href="#">Sign In</a></li>
+						<li><a href="#">Classes</a></li>
+						<li><a href="#">Workshops</a></li>
+						<li><a href="#">Appointments</a></li>
+						<li><a href="#">Client Home</a></li>
+						<li><a href="#">Retail</a></li>
 					</ul>
 				</nav>
 

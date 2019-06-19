@@ -40,8 +40,7 @@ class ProgramDetailHeader extends Component {
 					return (
 						<div key={program.ProgramID} className="program-header-container">
 							<h2 className="header-prog-name">{Name}</h2>
-							<div className="pencil-image-container">
-							</div>
+							<button className="pencil-image-container"></button>
 						</div>
 					);
 				};

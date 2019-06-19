@@ -16,14 +16,14 @@ function App() {
     	<Header />
     	<div className="tan-wrapper">
     		<ProgramButton />
-            <div>
-                <div className="three-part-program">
+            <main>
+                <section className="three-part-program">
                     <ProgramDetailContainer prgid={100}/>
                     <ProgramDetailContainer prgid={101}/>
                     <ProgramDetailContainer prgid={102}/>
-                </div>
+                </section>
                 <ProgramShortContainer /> 
-            </div>   
+            </main>   
  
     	</div>       
     </div>

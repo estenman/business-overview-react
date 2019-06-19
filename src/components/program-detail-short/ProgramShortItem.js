@@ -40,7 +40,7 @@ class ProgramShortItem extends Component {
 							let descriptor= (ProgramID === 103) ? " visits" : " views";
 							return (
 								<tr key={program.ProgramID} className="program-short-item">
-									<td>{Name}<br /><span className="program-short-expand">more</span></td>
+									<td>{Name}<br /><a href="#" className="program-short-expand">more</a></td>
 									<td>{TotalMonthlySales.toLocaleString('en-US', {style: 'currency', currency: 'USD'})}</td>
 									<td>{MonthlyAttendance}{descriptor}</td>
 								</tr>
