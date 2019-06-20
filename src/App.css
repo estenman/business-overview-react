@@ -29,8 +29,8 @@ a {
 }
 
 .tan-wrapper {
-	padding: 22px 0px 55px;
-	background: radial-gradient(#f4f4ee, #d8d7cb 90%);
+	padding: 22px 0px 0px;
+	background: radial-gradient(#f4f4ee, #cdccbc 90%);
 	flex: 1 0 auto;
 	display: flex;
 
@@ -70,6 +70,6 @@ table{
 	}
 
 	.tan-wrapper {
-		padding-bottom: 
+		padding-bottom: 55px;
 	}
 }

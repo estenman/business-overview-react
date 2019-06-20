@@ -30,7 +30,12 @@ nav > ul > li {
   color: #709582;
   font-weight: 600;
   font-size: 1em;
+  letter-spacing: 1px;
   position: relative;
+}
+
+nav > ul > li:hover {
+  color: #37444e;
 }
 
 nav > ul > li:last-child {
@@ -68,6 +73,7 @@ nav > ul > li::after {
   height: 50px;
   display: block;
   flex-shrink: 0;
+  border-bottom: 1px solid #d9d9d0;
 }
 
 .sub-nav-content {
@@ -79,15 +85,21 @@ nav > ul > li::after {
   padding: 5px;
 }
 
-.sub-nav-content li {
+.sub-nav-content li{
   background: #fff;
   display: inline-block;
   color: #737373;
   padding: 5px 15px;
+  letter-spacing: normal;
 }
 
-li.selected-tab-item {
+.sub-nav-content li:hover{
   color: #5e5e5e;
+}
+
+li.selected-tab-item > a {
+  color: #5e5e5e;
+  font-weight: 900
 }
 
 /*Mobile and tablet menu*/

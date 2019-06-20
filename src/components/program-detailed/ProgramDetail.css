@@ -1,7 +1,7 @@
 /*Container*/
 .program-container {
 	width: 255px;
-	min-height: 300px;
+	min-height: 255px;
 	background-color: white;
 	border: 2px solid #e6e6dd;
 	margin-right: 20px;
@@ -90,7 +90,7 @@
 
 /*Pricing detail section*/
 .pricing-container {
-	padding: .75em 1.25em;
+	padding: .75em 1.25em 0em;
 	text-align: left;
 	color: #bebeb5;
 	font-size: 0.75em;
@@ -121,10 +121,13 @@
 
 /*Toggle*/
 .toggle-copy {
+	/*padding: 0.5em 1.25em;*/
+
 	padding: 0.5em 1.25em;
 	color: #bebeb5;
 	border: none;
 	background-color: #fff;
+	font-size: .7em;
 }
 
 /*Medium and small*/
