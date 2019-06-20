@@ -8,6 +8,8 @@ class ProgramButton extends Component {
 					<img src="/assets/plus_icon.png" alt="plus sign" />
 				</button>
 				<p className="program-button-copy">New Program</p>
+
+			{/* Description for assistive technology */}
 				<div id="descriptionNewProgram">Clicking the button will open a window to add a new program</div>
 			</aside>
 		);

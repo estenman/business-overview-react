@@ -6,9 +6,12 @@ class Header extends Component {
 		return (
 			<React.Fragment>
 				<header>
-					<img className="header-logo" src="/assets/logo.png" alt="Urban Yoga logo" />
+					<div className="header-logo-container">
+						<img className="header-logo" src="/assets/logo.png" alt="Urban Yoga logo" />
+					</div>
 					<FullNavigation />
 				</header>
+			{/* Subnavigation full width background */}
 				<div className="subnav-background"></div>
 			</React.Fragment>
 		);

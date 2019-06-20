@@ -23,6 +23,7 @@ class FullNavigation extends Component {
 					</ul>
 				</nav>
 
+			{/* Mobile Nav */}
 				<nav role="navigation" className="header-nav-mobile">
 					<img src="./assets/mobile-menu-icon.png" alt="menu icon" />
 				</nav>

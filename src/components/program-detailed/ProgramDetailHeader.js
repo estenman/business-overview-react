@@ -37,6 +37,8 @@ class ProgramDetailHeader extends Component {
 				const { ProgramID, Name} = program;
 				
 				if (ProgramID === this.props.prgid) {
+
+				{/* The header of the program container */}
 					return (
 						<div key={program.ProgramID} className="program-header-container">
 							<h2 className="header-prog-name">{Name}</h2>

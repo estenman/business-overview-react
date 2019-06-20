@@ -35,9 +35,7 @@ class ProgramShortItem extends Component {
 				{!isLoading ? (
 					programs.map(program => {
 						const { ProgramID, Name, TotalMonthlySales, MonthlyAttendance } = program;
-						
-						if (ProgramID === 103 || ProgramID === 104) {
-							let descriptor= (ProgramID === 103) ? " visits" : " views";
+							let descriptor= (ProgramID === 104) ? " views" : " visits";
 							return (
 								<tr key={program.ProgramID} className="program-short-item">
 									<td>{Name}<br /><a href="#" className="program-short-expand">more</a></td>
@@ -45,7 +43,6 @@ class ProgramShortItem extends Component {
 									<td>{MonthlyAttendance}{descriptor}</td>
 								</tr>
 							);
-						};
 					})
 
 					) : (<tr><td>Loading</td></tr>)

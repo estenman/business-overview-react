@@ -16,6 +16,7 @@ class ProgramDetailToggle extends Component {
 	}
 
 	render() {
+		{/* Opens and closes pricing details */}
 		return(
 			<div>
 				{!this.state.isToggleOn && <ProgramDetailPricing prgid={this.props.prgid}/>}

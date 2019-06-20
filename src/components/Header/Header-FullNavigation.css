@@ -2,9 +2,13 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  border-bottom: 2px solid #cbcfd1;;
   background-color: #ecf7f2;
   flex-shrink: 0;
+}
+
+.header-logo-container {
+  flex: 1 0 auto;
+  border-bottom: 1px solid #cbe3d7;
 }
 
 .header-logo {
@@ -13,8 +17,10 @@ header {
 }
 
 .header-nav {
-  margin-left: auto;
+  flex-shrink: 0;
+  border-bottom: 1px solid #cbcfd1;
 }
+
 
 /*Navigation*/
 nav ul {
@@ -110,7 +116,7 @@ li.selected-tab-item > a {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 1046px){
+@media only screen and (max-width: 1157px){
   .header-nav {
     display: none;
   }

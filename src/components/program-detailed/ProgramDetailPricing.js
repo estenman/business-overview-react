@@ -39,6 +39,7 @@ class ProgramDetailPricing extends Component {
 						</tr>
 					</thead>
 					<tbody>
+						{/* Temporary seperation from rest of pricing info due to graph image being combined */}
 						<tr>
 							<td className="price-name-item">Monthly Unlimited</td>
 							<td className="price-current-item">$4,260</td>
@@ -54,6 +55,7 @@ class ProgramDetailPricing extends Component {
 								if (ProgramID === this.props.prgid && Name !== "Monthly Unlimited") {
 									return (
 									<React.Fragment key={price.PricingOptionID}>
+								{/* The pricing info in the program container */}
 										<tr >
 											<td className="price-name-item">{Name}</td>
 											<td className="price-current-item">${Sales.toLocaleString()}</td>
